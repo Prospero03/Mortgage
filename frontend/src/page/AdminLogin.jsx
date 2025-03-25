@@ -35,7 +35,7 @@ const AdminLogin = () => {
         }
   return (
     <div className='FormContainer '>
-    <h1>Admin Login</h1>
+    <h1>Авторизация Администратора</h1>
 
       <form onSubmit = {handleAdminLogin}>
 
@@ -57,7 +57,7 @@ const AdminLogin = () => {
                   onChange={change}/>
         </div>
 
-        <button>Login</button>
+        <button>Войти</button>
       </form>
       
       

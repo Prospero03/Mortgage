@@ -1,0 +1,35 @@
+.UpdateBlog{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.UpdateBlog .form-update {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 30px;
+    
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.UpdateBlog .form-update label{
+    font-size:  16px;
+}
+
+.UpdateBlog .form-update input{
+    padding-left: 10px;
+    height: 30px;
+    min-width: 200px;
+    border: 1px solid#bbbeff;
+    
+}
+
+.UpdateBlog button {
+    min-width: 220px;
+}

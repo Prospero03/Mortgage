@@ -1,0 +1,14 @@
+.Home .nav-link-admin{
+    color: #fff;
+    font-size: 18px;
+    background-color: #646cff;;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: ease all 0.5s;
+}
+
+.Home .nav-link-admin:hover{
+    text-decoration: none;
+    background-color: #535bf2;
+}

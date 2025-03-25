@@ -1,0 +1,37 @@
+.EditCard{
+    
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+
+.EditCard h3 {
+    font-size: 16px;
+}
+.EditCard p {
+    font-size: 16px;
+}
+
+.EditButton{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.EditButton .edit-link{
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #646cff;
+    transition: all ease 0.5s;
+    text-decoration: none;
+}
+
+.EditButton .edit-link:hover {
+    background-color: #535bf2;
+  }
+
